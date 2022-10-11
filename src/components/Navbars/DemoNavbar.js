@@ -134,12 +134,15 @@ function DemoNavbar(props) {
             </button>
           </div>
           <NavbarBrand href="/">{getBrand()}</NavbarBrand>
+          <h4>STRONZI APP</h4>
         </div>
+       
         <NavbarToggler onClick={toggle}>
           <span className="navbar-toggler-bar navbar-kebab" />
           <span className="navbar-toggler-bar navbar-kebab" />
           <span className="navbar-toggler-bar navbar-kebab" />
         </NavbarToggler>
+        
         <Collapse isOpen={isOpen} navbar className="justify-content-end">
           <form>
             <InputGroup className="no-border">
